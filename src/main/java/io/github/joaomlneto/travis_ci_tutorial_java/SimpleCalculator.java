@@ -1,5 +1,6 @@
 package io.github.joaomlneto.travis_ci_tutorial_java;
 
+// code from https://github.com/joaomlneto/travis-ci-tutorial-java
 public class SimpleCalculator {
 	public int add(int a, int b) {
 		return a + b;
@@ -14,6 +15,6 @@ public class SimpleCalculator {
 		return a / b;
 	}
 	public static final void main(String[] args) {
-		System.out.println("Hello world?");
+		System.out.println("Testing Continuous Integration");
 	}
 }
